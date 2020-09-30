@@ -1,0 +1,93 @@
+@font-face{
+	font-family: 'BPG WEB 001 CAPS';
+	src:url(../fonts/bpg_web_001_caps.ttf) format('truetype');
+}
+@font-face{
+	font-family: 'BPG NINO MTAVRULI';
+	src:url(../fonts/bpg-nino-mtavruli-bold-webfont.ttf) format('truetype');
+}
+@font-face{
+	font-family: 'BPG WEB 001';
+	src:url(../fonts/bpg_web.ttf) format('truetype');
+}
+
+
+body{
+	background:#ececec;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top:2%;
+}
+
+.logo{
+	color: #ff8000;
+	font-size:30px;
+	padding: 0px;
+	font-family: 'BPG WEB 001 CAPS';
+	text-decoration: none; 
+}
+
+.navigationul{
+	list-style-type: none;
+	padding:0px;
+	line-height: 27px;
+	margin-top: 19px;
+}
+.navigation{
+	color: #1a8cff;
+	font-size:22px;
+	font-family: 'BPG WEB 001 CAPS';
+	text-decoration: none;
+}
+
+.monthdate{
+	margin-top:40px;
+	text-align: center;
+	line-height: 1.4;
+	white-space: nowrap;
+	font-size:40px;
+	color: white;
+	font-family:'BPG NINO MTAVRULI';
+	background: #3d58a6;
+	width: 50px;
+	height: 50px
+}
+.month{
+	font-family: 'Segoe UI';
+	font-size: 17px;
+	color: #0066cc;
+}
+
+.title{
+	margin-top:12px;
+	margin-bottom: 10px;
+	font-family: 'BPG NINO MTAVRULI';
+	font-size: 19px;
+	color: #918e8e;
+}
+
+.sectionimage{
+	width:270px;
+	height: 200px;
+	border-radius: 3px;
+	object-fit: cover;
+}
+
+.sectionparagraph{
+	margin-top:15px;
+	margin-bottom: 10px;
+	font-family: 'BPG WEB 001';
+	font-size: 14px;
+	color: black;	
+}
+
+.footerimage{
+	object-fit: cover;
+	margin-top;
+	margin: 0.3%;
+	width: 27px;
+	height:27px;
+}
+
+
+

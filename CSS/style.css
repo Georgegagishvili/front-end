@@ -1,0 +1,139 @@
+body{
+	width: 1366px;
+	height: 1139px;
+	margin-left: 10%;
+	margin-right: 10%;
+	background: ;
+}
+
+@font-face{
+	font-family: 'BPG WEB 001 CAPS';
+	src:url(../fonts/bpg_web_001_caps.ttf) format('truetype');
+}
+@font-face{
+	font-family: 'BPG NINO MTAVRULI';
+	src:url(../fonts/bpg-nino-mtavruli-bold-webfont.ttf) format('truetype');
+}
+@font-face{
+	font-family: 'BPG WEB 001';
+	src:url(../fonts/bpg_web.ttf) format('truetype');
+}
+@font-face{
+	font-family: 'ROBOTO REGULAR';
+	src:url(../fonts/roboto-regular.ttf) format('truetype');
+}
+
+.logo{
+	color:#EE4036;
+	font-family: "BPG NINO MTAVRULI";
+	font-size: 33px;
+	display: inline-block;
+	vertical-align: middle;
+	margin:36px 32px 0 0;
+}
+
+.nav-li{
+	margin-top:36px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 22px;
+	font-size: 23px;
+	font-family: "BPG NINO MTAVRULI";
+}
+
+.navigation{
+	display: inline-block;
+}
+
+.nav-text{
+	color:#3D58A6;
+
+}
+
+.image-wrapper{
+	margin-top:76px;
+	margin-left: 98px;
+	position: relative;
+}
+.img-text{
+	font-size: 30px;
+	font-family: "BPG NINO MTAVRULi";
+	line-height: 1.2;
+	color:white;
+	position: absolute;
+	width: 398px;
+	height: 178px;
+	top:30px;
+	left:39px;
+}
+.img-text-roboto{
+	font-family: "ROBOTO REGULAR";
+}
+
+.featured{
+	margin:120px 0 0 98px;
+	margin-top: 120px;
+	font-family: "ROBOTO REGULAR";
+	font-size:24px;
+	color:#000000;
+}
+
+.box{
+	display: inline-block;
+	position: relative;
+	background:#F2F2F2;
+	margin-top:30px;
+	margin-left: 98px;
+	width: 570px;
+	height: 225px;
+	border-radius: 10px;
+}
+.box1{	
+	display: inline-block;
+	position: relative;
+	background:#F2F2F2;
+	margin-top:30px;
+	margin-left: 29px;
+	width: 570px;
+	height: 225px;
+	border-radius: 10px;
+}
+
+.box-title{
+	display: inline-block;
+	position: absolute;
+	color:#3D58A6;
+	font-family: "ROBOTO REGULAR";
+	font-size: 22px;
+	margin:13px 0 0 20px;
+}
+
+.box-info{
+	display: inline-block;
+	position: absolute;
+	width: 353px;
+	height: 156px;
+	font-family: "ROBOTO REGULAR";
+	font-size: 20px;
+	color:#58595B;
+	margin:58px 17px 25px 200px;
+}
+.box1 img{
+	position: absolute;
+	height: 127px;
+	width:85px;
+	margin:62px 0px 37px 63px;
+}
+
+.box img{
+	position: absolute;
+	height: 120px;
+	width: 93px;
+	bottom: 50px;
+	left: 45px;
+}
+
+.social-media{
+	margin:62px 0px 0px 105px;
+	width: 110px;
+}
